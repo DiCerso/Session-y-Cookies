@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body class="<%= dato.color %>">
+    <a href="/Deslogueo">Desloguearse</a>
+    <br>
+    <a href="/Color">Olvidar Color</a>
+    <h1>
+        Hola <%= dato.nombre %> , elegiste el color: <%= dato.color %> , tu email es:
+        <%= dato.mail %>  y tu edad es: <%= dato.edad %> 
+    </h1>
+
+    <a href="/vista2">segunda vista</a>
+</body>
+
+</html>
